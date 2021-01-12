@@ -5,10 +5,11 @@ import UseState from './UseState';
 import UseInput from './UseInput';
 import UseTab from './UseTab';
 import UseTitle from './UseTitle';
+import UseClick from './UseClick';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseTitle />
+    <UseClick />
   </React.StrictMode>,
   document.getElementById('root')
 );
